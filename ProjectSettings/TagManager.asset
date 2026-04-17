@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Wall
+  - Platform
+  - FlyingSprite
+  - Collectible
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Platform
+  - Ground
+  - Wall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Spirits
+  - Background
+  - 
+  - Confiner
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 445545753
+    locked: 0
+  - name: Tile
+    uniqueID: 1134456405
+    locked: 0
+  - name: Item
+    uniqueID: 3407544237
+    locked: 0
+  - name: Player
+    uniqueID: 956911407
+    locked: 0
+  - name: Front item
+    uniqueID: 2416710499
+    locked: 0
+  - name: Front
+    uniqueID: 1489593983
+    locked: 0
+  - name: UI
+    uniqueID: 617405453
+    locked: 0

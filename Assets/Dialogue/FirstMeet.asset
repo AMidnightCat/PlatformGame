@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8806c06f5b2265a4eba27fb978c0a01f, type: 3}
+  m_Name: FirstMeet
+  m_EditorClassIdentifier: 
+  dialogueID: 1
+  dialogueName: FirstMeet
+  dialogueNodes:
+  - nodeID: 1
+    speaker: 1
+    speakerName: FlyingSprite
+    speakerPortrait: {fileID: 1787095245, guid: 7dcf31a9f27214a429656d9716d8fd5b, type: 3}
+    content: "\u4F60\u597D\uFF0C\u6211\u5C06\u5E2E\u52A9\u4F60\u8FDB\u884C\u5E8F\u7AE0\u6E38\u73A9"
+    textSpeed: 0.1
+    voiceClip: {fileID: 0}
+    choices: []
+    nextNodeID: 2
+    autoAdvance: 0
+    autoAdvanceDelay: 0
+  - nodeID: 2
+    speaker: 1
+    speakerName: FlyingSprite
+    speakerPortrait: {fileID: 1787095245, guid: 7dcf31a9f27214a429656d9716d8fd5b, type: 3}
+    content: "\u8DDF\u6211\u6765"
+    textSpeed: 0.1
+    voiceClip: {fileID: 0}
+    choices: []
+    nextNodeID: 
+    autoAdvance: 0
+    autoAdvanceDelay: 0
+  repeatLastNode: 0
